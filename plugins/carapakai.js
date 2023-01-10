@@ -39,7 +39,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
  │   *_balik modal.BENERAN GK BOHONG_* 
  │   
  │*©NexBotz 2020-2021* 
- ╰─「 *Tutorial Main NexBotz* 」 
+ ╰─「 *Tutorial Main BebanBot愛* 」 
  `.trim(), m) 
  } 
  handler.help = ['tutorial'] 

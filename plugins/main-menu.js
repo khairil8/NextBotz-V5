@@ -201,11 +201,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya NexBotz ><"},
+	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya BebanBot愛 ><"},
 	    {title: `💌)ഒ Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
             {title: `🗣)ഒ Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
             {title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 NexBotz..."},
+	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 BebanBot愛..."},
 	]
     },{
 	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
@@ -292,7 +292,7 @@ let tek = `    ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫ 
     ◉  𝙊𝙨 𝙋𝙡𝙖𝙩𝙛𝙧𝙤𝙢 : *${os.platform()}*`
 const listMessage = {
   text: tek,
-  footer: '© PutraModz | ALL RESERVED',
+  footer: '© Khairil春 | ALL RESERVED',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,
@@ -567,12 +567,12 @@ function _0x1766() {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By PutraModz',
+            footer: titlebot + '\n⚡ Supported By Khairil春',
             templateButtons: [
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https:/wa.me/6283863727728'
+                        url: 'https:/wa.me/60109102984'
                     }
                 },
                 {
@@ -604,7 +604,7 @@ function _0x1766() {
         await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
     //------------------- BUTTON VID
-    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/0303b8f81000ddb30157b.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) { 
      conn.reply(m.chat, 'Maaf, menu sedang error', m) 
